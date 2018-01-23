@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CanvasLearn</string>
+    <string name="drawColorView">绘制颜色</string>
+    <string name="drawPointView">绘制点</string>
+    <string name="drawLineView">绘制直线</string>
+    <string name="drawRectView">绘制矩形</string>
+
+</resources>

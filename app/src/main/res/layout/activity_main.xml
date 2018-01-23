@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.liuh.canvaslearn.MainActivity">
+
+    <Button
+        android:id="@+id/btn_drawColorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawColorView" />
+
+    <Button
+        android:id="@+id/btn_drawPointView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawPointView" />
+
+    <Button
+        android:id="@+id/btn_drawLineView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawLineView" />
+
+    <Button
+        android:id="@+id/btn_drawRectView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawRectView" />
+
+</LinearLayout>

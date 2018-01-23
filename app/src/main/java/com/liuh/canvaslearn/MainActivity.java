@@ -1,0 +1,48 @@
+package com.liuh.canvaslearn;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
+
+    }
+
+
+    @OnClick({R.id.btn_drawColorView, R.id.btn_drawPointView, R.id.btn_drawLineView, R.id.btn_drawRectView})
+    void onBtnClicked(View view) {
+        Intent intent = new Intent();
+        switch (view.getId()) {
+            case R.id.btn_drawColorView:
+                intent.setClass(MainActivity.this, DrawColorViewActivity.class);
+                MainActivity.this.startActivity(intent);
+                break;
+            case R.id.btn_drawPointView:
+                intent.setClass(MainActivity.this, DrawPointViewActivity.class);
+                MainActivity.this.startActivity(intent);
+                break;
+            case R.id.btn_drawLineView:
+                intent.setClass(MainActivity.this, DrawLineViewActivity.class);
+                MainActivity.this.startActivity(intent);
+                break;
+            case R.id.btn_drawRectView:
+                intent.setClass(MainActivity.this, DrawRectViewActivity.class);
+                MainActivity.this.startActivity(intent);
+                break;
+        }
+    }
+
+}
