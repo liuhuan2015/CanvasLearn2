@@ -4,5 +4,8 @@
     <string name="drawPointView">绘制点</string>
     <string name="drawLineView">绘制直线</string>
     <string name="drawRectView">绘制矩形</string>
+    <string name="drawRoundCorneRectView">绘制圆角矩形</string>
+    <string name="drawOvalView">绘制椭圆</string>
+    <string name="drawCircleView">绘制圆形</string>
 
 </resources>

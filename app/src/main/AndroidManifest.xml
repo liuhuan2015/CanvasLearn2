@@ -19,7 +19,10 @@
         <activity android:name=".DrawColorViewActivity" />
         <activity android:name=".DrawPointViewActivity" />
         <activity android:name=".DrawLineViewActivity" />
-        <activity android:name=".DrawRectViewActivity"></activity>
+        <activity android:name=".DrawRectViewActivity" />
+        <activity android:name=".DrawRoundCornerRectViewActivity" />
+        <activity android:name=".DrawOvalViewActivity" />
+        <activity android:name=".DrawCircleViewActivity"></activity>
     </application>
 
 </manifest>

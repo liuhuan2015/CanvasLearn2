@@ -31,4 +31,22 @@
         android:layout_height="wrap_content"
         android:text="@string/drawRectView" />
 
+    <Button
+        android:id="@+id/btn_drawRoundCorneRectView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawRoundCorneRectView" />
+
+    <Button
+        android:id="@+id/btn_drawOvalView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawOvalView" />
+
+    <Button
+        android:id="@+id/btn_drawCircleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawCircleView" />
+
 </LinearLayout>

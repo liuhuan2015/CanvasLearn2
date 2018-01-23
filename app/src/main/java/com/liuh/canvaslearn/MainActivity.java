@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.btn_drawColorView, R.id.btn_drawPointView, R.id.btn_drawLineView, R.id.btn_drawRectView})
+    @OnClick({R.id.btn_drawColorView, R.id.btn_drawPointView, R.id.btn_drawLineView, R.id.btn_drawRectView,
+            R.id.btn_drawRoundCorneRectView, R.id.btn_drawOvalView,R.id.btn_drawCircleView})
     void onBtnClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -40,6 +41,18 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_drawRectView:
                 intent.setClass(MainActivity.this, DrawRectViewActivity.class);
+                MainActivity.this.startActivity(intent);
+                break;
+            case R.id.btn_drawRoundCorneRectView:
+                intent.setClass(MainActivity.this, DrawRoundCornerRectViewActivity.class);
+                MainActivity.this.startActivity(intent);
+                break;
+            case R.id.btn_drawOvalView:
+                intent.setClass(MainActivity.this, DrawOvalViewActivity.class);
+                MainActivity.this.startActivity(intent);
+                break;
+            case R.id.btn_drawCircleView:
+                intent.setClass(MainActivity.this, DrawCircleViewActivity.class);
                 MainActivity.this.startActivity(intent);
                 break;
         }
