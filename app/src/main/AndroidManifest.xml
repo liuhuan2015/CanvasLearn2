@@ -22,7 +22,9 @@
         <activity android:name=".DrawRectViewActivity" />
         <activity android:name=".DrawRoundCornerRectViewActivity" />
         <activity android:name=".DrawOvalViewActivity" />
-        <activity android:name=".DrawCircleViewActivity"></activity>
+        <activity android:name=".DrawCircleViewActivity" />
+        <activity android:name=".DrawArcViewActivity" />
+        <activity android:name=".PaintUseLearnViewActivity"></activity>
     </application>
 
 </manifest>

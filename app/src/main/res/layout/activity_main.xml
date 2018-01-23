@@ -49,4 +49,16 @@
         android:layout_height="wrap_content"
         android:text="@string/drawCircleView" />
 
+    <Button
+        android:id="@+id/btn_drawArcView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawArcView" />
+
+    <Button
+        android:id="@+id/btn_paintUseLearnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paintUseLearnView" />
+
 </LinearLayout>

@@ -7,5 +7,7 @@
     <string name="drawRoundCorneRectView">绘制圆角矩形</string>
     <string name="drawOvalView">绘制椭圆</string>
     <string name="drawCircleView">绘制圆形</string>
+    <string name="drawArcView">绘制圆弧</string>
+    <string name="paintUseLearnView">Paint的三种Style</string>
 
 </resources>
