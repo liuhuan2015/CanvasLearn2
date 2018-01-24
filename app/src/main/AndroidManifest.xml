@@ -30,7 +30,8 @@
         <activity android:name=".CanvasScaleViewActivity" />
         <activity android:name=".CanvasScaleViewOfForCircleActivity" />
         <activity android:name=".CanvasRotateViewActivity" />
-        <activity android:name=".CanvasRotateViewOfCircleActivity"></activity>
+        <activity android:name=".CanvasRotateViewOfCircleActivity" />
+        <activity android:name=".CanvasSkewViewActivity"></activity>
     </application>
 
 </manifest>

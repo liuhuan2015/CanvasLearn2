@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
     @OnClick({R.id.btn_drawColorView, R.id.btn_drawPointView, R.id.btn_drawLineView, R.id.btn_drawRectView,
             R.id.btn_drawRoundCorneRectView, R.id.btn_drawOvalView, R.id.btn_drawCircleView, R.id.btn_drawArcView,
             R.id.btn_paintUseLearnView, R.id.btn_drawPieView, R.id.btn_canvasTranslateView, R.id.btn_canvasScaleView,
-            R.id.btn_canvasScaleViewOfForCircle, R.id.btn_canvasRotateView, R.id.btn_canvasRotateViewOfCircle})
+            R.id.btn_canvasScaleViewOfForCircle, R.id.btn_canvasRotateView, R.id.btn_canvasRotateViewOfCircle,
+            R.id.btn_canvasSkewView})
     void onBtnClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -87,6 +88,11 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_canvasRotateViewOfCircle:
                 intent.setClass(MainActivity.this, CanvasRotateViewOfCircleActivity.class);
+                MainActivity.this.startActivity(intent);
+                break;
+
+            case R.id.btn_canvasSkewView:
+                intent.setClass(MainActivity.this, CanvasSkewViewActivity.class);
                 MainActivity.this.startActivity(intent);
                 break;
 
