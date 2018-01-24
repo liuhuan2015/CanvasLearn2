@@ -9,5 +9,6 @@
     <string name="drawCircleView">绘制圆形</string>
     <string name="drawArcView">绘制圆弧</string>
     <string name="paintUseLearnView">Paint的三种Style</string>
+    <string name="drawPieView">饼状图</string>
 
 </resources>

@@ -24,7 +24,8 @@
         <activity android:name=".DrawOvalViewActivity" />
         <activity android:name=".DrawCircleViewActivity" />
         <activity android:name=".DrawArcViewActivity" />
-        <activity android:name=".PaintUseLearnViewActivity"></activity>
+        <activity android:name=".PaintUseLearnViewActivity" />
+        <activity android:name=".DrawPieViewActivity"></activity>
     </application>
 
 </manifest>
