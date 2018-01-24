@@ -10,5 +10,10 @@
     <string name="drawArcView">绘制圆弧</string>
     <string name="paintUseLearnView">Paint的三种Style</string>
     <string name="drawPieView">饼状图</string>
+    <string name="canvasTranslateView">画布位移操作</string>
+    <string name="canvasScaleView">画布缩放操作</string>
+    <string name="canvasScaleViewOfForCircle">画布缩放操作之for循环</string>
+    <string name="canvasRotateView">画布旋转操作</string>
+    <string name="canvasRotateViewOfCircle">画布旋转操作之"不明觉厉"控件</string>
 
 </resources>

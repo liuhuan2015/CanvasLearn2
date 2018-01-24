@@ -1,70 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.liuh.canvaslearn.MainActivity">
 
-    <Button
-        android:id="@+id/btn_drawColorView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/drawColorView" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_drawPointView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/drawPointView" />
+        <Button
+            android:id="@+id/btn_drawColorView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawColorView" />
 
-    <Button
-        android:id="@+id/btn_drawLineView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/drawLineView" />
+        <Button
+            android:id="@+id/btn_drawPointView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawPointView" />
 
-    <Button
-        android:id="@+id/btn_drawRectView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/drawRectView" />
+        <Button
+            android:id="@+id/btn_drawLineView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawLineView" />
 
-    <Button
-        android:id="@+id/btn_drawRoundCorneRectView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/drawRoundCorneRectView" />
+        <Button
+            android:id="@+id/btn_drawRectView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawRectView" />
 
-    <Button
-        android:id="@+id/btn_drawOvalView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/drawOvalView" />
+        <Button
+            android:id="@+id/btn_drawRoundCorneRectView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawRoundCorneRectView" />
 
-    <Button
-        android:id="@+id/btn_drawCircleView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/drawCircleView" />
+        <Button
+            android:id="@+id/btn_drawOvalView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawOvalView" />
 
-    <Button
-        android:id="@+id/btn_drawArcView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/drawArcView" />
+        <Button
+            android:id="@+id/btn_drawCircleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawCircleView" />
 
-    <Button
-        android:id="@+id/btn_paintUseLearnView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/paintUseLearnView" />
+        <Button
+            android:id="@+id/btn_drawArcView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawArcView" />
 
-    <Button
-        android:id="@+id/btn_drawPieView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/drawPieView" />
+        <Button
+            android:id="@+id/btn_paintUseLearnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/paintUseLearnView" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/btn_drawPieView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawPieView" />
+
+        <Button
+            android:id="@+id/btn_canvasTranslateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/canvasTranslateView" />
+
+        <Button
+            android:id="@+id/btn_canvasScaleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/canvasScaleView" />
+
+        <Button
+            android:id="@+id/btn_canvasScaleViewOfForCircle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/canvasScaleViewOfForCircle" />
+
+        <Button
+            android:id="@+id/btn_canvasRotateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/canvasRotateView" />
+
+        <Button
+            android:id="@+id/btn_canvasRotateViewOfCircle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/canvasRotateViewOfCircle" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -111,10 +111,8 @@ public class PieView extends View {
             pie.setAngle(angle);                //记录角度大小
             sumAngle += angle;
             Log.e("***************initData", "" + pie.getAngle());
-
         }
 
     }
-
 
 }

@@ -25,7 +25,12 @@
         <activity android:name=".DrawCircleViewActivity" />
         <activity android:name=".DrawArcViewActivity" />
         <activity android:name=".PaintUseLearnViewActivity" />
-        <activity android:name=".DrawPieViewActivity"></activity>
+        <activity android:name=".DrawPieViewActivity" />
+        <activity android:name=".CanvasTranslateViewActivity" />
+        <activity android:name=".CanvasScaleViewActivity" />
+        <activity android:name=".CanvasScaleViewOfForCircleActivity" />
+        <activity android:name=".CanvasRotateViewActivity" />
+        <activity android:name=".CanvasRotateViewOfCircleActivity"></activity>
     </application>
 
 </manifest>
