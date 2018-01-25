@@ -16,5 +16,6 @@
     <string name="canvasRotateView">画布旋转操作</string>
     <string name="canvasRotateViewOfCircle">画布旋转操作之"不明觉厉"控件</string>
     <string name="canvasSkewView">画布错切操作</string>
+    <string name="drawPictureView">绘制图片之drawPicture</string>
 
 </resources>
