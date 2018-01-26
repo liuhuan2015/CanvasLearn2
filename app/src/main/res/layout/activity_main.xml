@@ -113,6 +113,17 @@
             android:layout_height="wrap_content"
             android:text="@string/drawPictureView" />
 
+        <Button
+            android:id="@+id/btn_drawBitmapView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawBitmapView" />
+
+        <Button
+            android:id="@+id/btn_drawBitmapViewOfCheckView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawBitmapViewOfCheckView" />
 
     </LinearLayout>
 

@@ -32,7 +32,9 @@
         <activity android:name=".CanvasRotateViewActivity" />
         <activity android:name=".CanvasRotateViewOfCircleActivity" />
         <activity android:name=".CanvasSkewViewActivity" />
-        <activity android:name=".DrawPictureViewActivity"></activity>
+        <activity android:name=".DrawPictureViewActivity" />
+        <activity android:name=".DrawBitmapViewActivity" />
+        <activity android:name=".DrawBitmapViewOfCheckViewActivity"></activity>
     </application>
 
 </manifest>
