@@ -34,7 +34,9 @@
         <activity android:name=".CanvasSkewViewActivity" />
         <activity android:name=".DrawPictureViewActivity" />
         <activity android:name=".DrawBitmapViewActivity" />
-        <activity android:name=".DrawBitmapViewOfCheckViewActivity"></activity>
+        <activity android:name=".DrawBitmapViewOfCheckViewActivity" />
+        <activity android:name=".DrawTextViewFirstKindActivity" />
+        <activity android:name=".DrawTextViewSecondKindActivity"></activity>
     </application>
 
 </manifest>

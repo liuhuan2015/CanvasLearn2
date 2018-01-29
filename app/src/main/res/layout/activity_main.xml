@@ -125,6 +125,18 @@
             android:layout_height="wrap_content"
             android:text="@string/drawBitmapViewOfCheckView" />
 
+        <Button
+            android:id="@+id/btn_drawTextViewFirstKind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawTextViewFirstKind" />
+
+        <Button
+            android:id="@+id/btn_drawTextViewSecondKind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawTextViewSecondKind" />
+
     </LinearLayout>
 
 </ScrollView>
