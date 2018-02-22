@@ -21,5 +21,8 @@
     <string name="drawBitmapViewOfCheckView">绘制图片之drawBitmap之checkView</string>
     <string name="drawTextViewFirstKind">绘制文字之第一类操作</string>
     <string name="drawTextViewSecondKind">绘制文字之第二类操作</string>
+    <string name="pathUseMethodDetail">Path的使用方法详解</string>
+    <!--Path的使用方法详解-->
+    <string name="pathUseMethodDetailFirstGroup">Path的使用方法详解第一组方法</string>
 
 </resources>

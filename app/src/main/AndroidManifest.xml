@@ -36,7 +36,9 @@
         <activity android:name=".DrawBitmapViewActivity" />
         <activity android:name=".DrawBitmapViewOfCheckViewActivity" />
         <activity android:name=".DrawTextViewFirstKindActivity" />
-        <activity android:name=".DrawTextViewSecondKindActivity"></activity>
+        <activity android:name=".DrawTextViewSecondKindActivity" />
+        <activity android:name=".PathUseDetailActivity" />
+        <activity android:name=".PathUseDetailFirstGroupActivity"></activity>
     </application>
 
 </manifest>
