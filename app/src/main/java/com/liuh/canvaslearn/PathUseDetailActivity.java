@@ -20,12 +20,16 @@ public class PathUseDetailActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.btn_pathUseMethodDetailFirstGroup})
+    @OnClick({R.id.btn_pathUseMethodDetailFirstGroup, R.id.btn_pathUseMethodDetailAddXxx})
     void onViewClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
             case R.id.btn_pathUseMethodDetailFirstGroup:
                 intent.setClass(PathUseDetailActivity.this, PathUseDetailFirstGroupActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_pathUseMethodDetailAddXxx:
+                intent.setClass(PathUseDetailActivity.this, PathUseDetailAddXxxActivity.class);
                 startActivity(intent);
                 break;
 

@@ -38,7 +38,8 @@
         <activity android:name=".DrawTextViewFirstKindActivity" />
         <activity android:name=".DrawTextViewSecondKindActivity" />
         <activity android:name=".PathUseDetailActivity" />
-        <activity android:name=".PathUseDetailFirstGroupActivity"></activity>
+        <activity android:name=".PathUseDetailFirstGroupActivity" />
+        <activity android:name=".PathUseDetailAddXxxActivity" />
     </application>
 
 </manifest>
