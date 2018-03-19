@@ -12,7 +12,7 @@ import android.view.View;
 /**
  * Created by huan on 2018/3/19.
  * <p>
- * path.addRect(...)
+ * path.addRect(...)  其中的参数Path.Direction dir指定了点绘制的顺序（顺时针 or 逆时针）
  */
 
 public class PathUseDetailAddXxx extends View {
