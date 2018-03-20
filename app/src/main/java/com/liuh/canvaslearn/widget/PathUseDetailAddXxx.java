@@ -13,6 +13,19 @@ import android.view.View;
  * Created by huan on 2018/3/19.
  * <p>
  * path.addRect(...)  其中的参数Path.Direction dir指定了点绘制的顺序（顺时针 or 逆时针）
+ * <p>
+ * // 第一类(基本形状)
+ * <p>
+ * // 圆形
+ * public void addCircle (float x, float y, float radius, Path.Direction dir)
+ * // 椭圆
+ * public void addOval (RectF oval, Path.Direction dir)
+ * // 矩形
+ * public void addRect (float left, float top, float right, float bottom, Path.Direction dir)
+ * public void addRect (RectF rect, Path.Direction dir)
+ * // 圆角矩形
+ * public void addRoundRect (RectF rect, float[] radii, Path.Direction dir)
+ * public void addRoundRect (RectF rect, float rx, float ry, Path.Direction dir)
  */
 
 public class PathUseDetailAddXxx extends View {

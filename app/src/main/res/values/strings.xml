@@ -25,5 +25,6 @@
     <!--Path的使用方法详解-->
     <string name="pathUseMethodDetailFirstGroup">Path的使用方法详解第一组</string>
     <string name="pathUseMethodDetailAddXxx">Path的使用方法详解addXxx</string>
+    <string name="pathUseMethodDetailAddPath">Path的使用方法详解addPath</string>
 
 </resources>

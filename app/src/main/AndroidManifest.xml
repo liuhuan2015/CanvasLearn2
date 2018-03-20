@@ -40,6 +40,7 @@
         <activity android:name=".PathUseDetailActivity" />
         <activity android:name=".PathUseDetailFirstGroupActivity" />
         <activity android:name=".PathUseDetailAddXxxActivity" />
+        <activity android:name=".PathUseDetailAddPathActivity" />
     </application>
 
 </manifest>
