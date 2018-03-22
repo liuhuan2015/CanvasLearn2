@@ -40,5 +40,16 @@
         android:layout_height="wrap_content"
         android:text="@string/pathUseMethodDetailAddPath" />
 
+    <Button
+        android:id="@+id/btn_pathUseMethodDetailAddArc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pathUseMethodDetailAddArc" />
+
+    <Button
+        android:id="@+id/btn_pathUseMethodDetailArcTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pathUseMethodDetailArcTo" />
 
 </LinearLayout>

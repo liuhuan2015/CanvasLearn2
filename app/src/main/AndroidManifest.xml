@@ -41,6 +41,8 @@
         <activity android:name=".PathUseDetailFirstGroupActivity" />
         <activity android:name=".PathUseDetailAddXxxActivity" />
         <activity android:name=".PathUseDetailAddPathActivity" />
+        <activity android:name=".PathUseDetailAddArcActivity" />
+        <activity android:name=".PathUseDetailArcToActivity" />
     </application>
 
 </manifest>
