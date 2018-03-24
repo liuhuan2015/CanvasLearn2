@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.liuh.canvaslearn.DrawPieViewActivity">
+    tools:context="com.liuh.canvaslearn.activity.DrawPieViewActivity">
 
     <com.liuh.canvaslearn.widget.PieView
         android:id="@+id/pieView"

@@ -1,8 +1,9 @@
-package com.liuh.canvaslearn;
+package com.liuh.canvaslearn.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.liuh.canvaslearn.R;
 import com.liuh.canvaslearn.model.PieData;
 import com.liuh.canvaslearn.widget.PieView;
 

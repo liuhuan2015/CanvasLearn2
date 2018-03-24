@@ -1,13 +1,15 @@
-package com.liuh.canvaslearn;
+package com.liuh.canvaslearn.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DrawTextViewFirstKindActivity extends AppCompatActivity {
+import com.liuh.canvaslearn.R;
+
+public class DrawLineViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_draw_text_view_first_kind);
+        setContentView(R.layout.activity_draw_line_view);
     }
 }

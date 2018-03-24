@@ -1,11 +1,11 @@
-package com.liuh.canvaslearn;
+package com.liuh.canvaslearn.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.liuh.canvaslearn.widget.PathUseDetailAddArc;
+import com.liuh.canvaslearn.R;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -24,7 +24,8 @@ public class PathUseDetailActivity extends AppCompatActivity {
 
     @OnClick({R.id.btn_pathUseMethodDetailFirstGroup, R.id.btn_pathUseMethodDetailAddXxx,
             R.id.btn_pathUseMethodDetailAddPath, R.id.btn_pathUseMethodDetailAddArc,
-            R.id.btn_pathUseMethodDetailArcTo, R.id.btn_pathUseMethodDetailOffset})
+            R.id.btn_pathUseMethodDetailArcTo, R.id.btn_pathUseMethodDetailOffset,
+            R.id.btn_pathUseMethodDetailRadarView})
     void onViewClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -52,7 +53,10 @@ public class PathUseDetailActivity extends AppCompatActivity {
                 intent.setClass(PathUseDetailActivity.this, PathUseDetailOffsetActivity.class);
                 startActivity(intent);
                 break;
-
+            case R.id.btn_pathUseMethodDetailRadarView:
+                intent.setClass(PathUseDetailActivity.this, PathUseDetailRadarViewActivity.class);
+                startActivity(intent);
+                break;
         }
 
 

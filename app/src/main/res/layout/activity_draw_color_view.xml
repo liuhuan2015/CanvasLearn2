@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.liuh.canvaslearn.DrawColorViewActivity">
+    tools:context="com.liuh.canvaslearn.activity.DrawColorViewActivity">
 
     <com.liuh.canvaslearn.widget.DrawColorView
         android:layout_width="match_parent"

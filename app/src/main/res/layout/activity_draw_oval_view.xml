@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.liuh.canvaslearn.DrawOvalViewActivity">
+    tools:context="com.liuh.canvaslearn.activity.DrawOvalViewActivity">
 
     <com.liuh.canvaslearn.widget.DrawOvalView
         android:layout_width="match_parent"

@@ -1,13 +1,15 @@
-package com.liuh.canvaslearn;
+package com.liuh.canvaslearn.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DrawColorViewActivity extends AppCompatActivity {
+import com.liuh.canvaslearn.R;
+
+public class CanvasScaleViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_draw_color_view);
+        setContentView(R.layout.activity_canvas_scale_view);
     }
 }

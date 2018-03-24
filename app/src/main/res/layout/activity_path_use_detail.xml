@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.liuh.canvaslearn.PathUseDetailActivity">
+    tools:context="com.liuh.canvaslearn.activity.PathUseDetailActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -57,5 +57,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/pathUseMethodDetailOffset" />
+
+    <Button
+        android:id="@+id/btn_pathUseMethodDetailRadarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pathUseMethodDetailRadarView" />
 
 </LinearLayout>

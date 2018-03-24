@@ -1,13 +1,15 @@
-package com.liuh.canvaslearn;
+package com.liuh.canvaslearn.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class PaintUseLearnViewActivity extends AppCompatActivity {
+import com.liuh.canvaslearn.R;
+
+public class DrawPictureViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_paint_use_learn_view);
+        setContentView(R.layout.activity_draw_picture_view);
     }
 }

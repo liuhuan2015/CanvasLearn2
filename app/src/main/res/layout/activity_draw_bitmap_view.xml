@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.liuh.canvaslearn.DrawBitmapViewActivity">
+    tools:context="com.liuh.canvaslearn.activity.DrawBitmapViewActivity">
 
     <com.liuh.canvaslearn.widget.DrawBitmapView
         android:layout_width="match_parent"

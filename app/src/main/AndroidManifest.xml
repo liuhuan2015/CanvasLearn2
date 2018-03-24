@@ -9,41 +9,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DrawColorViewActivity" />
-        <activity android:name=".DrawPointViewActivity" />
-        <activity android:name=".DrawLineViewActivity" />
-        <activity android:name=".DrawRectViewActivity" />
-        <activity android:name=".DrawRoundCornerRectViewActivity" />
-        <activity android:name=".DrawOvalViewActivity" />
-        <activity android:name=".DrawCircleViewActivity" />
-        <activity android:name=".DrawArcViewActivity" />
-        <activity android:name=".PaintUseLearnViewActivity" />
-        <activity android:name=".DrawPieViewActivity" />
-        <activity android:name=".CanvasTranslateViewActivity" />
-        <activity android:name=".CanvasScaleViewActivity" />
-        <activity android:name=".CanvasScaleViewOfForCircleActivity" />
-        <activity android:name=".CanvasRotateViewActivity" />
-        <activity android:name=".CanvasRotateViewOfCircleActivity" />
-        <activity android:name=".CanvasSkewViewActivity" />
-        <activity android:name=".DrawPictureViewActivity" />
-        <activity android:name=".DrawBitmapViewActivity" />
-        <activity android:name=".DrawBitmapViewOfCheckViewActivity" />
-        <activity android:name=".DrawTextViewFirstKindActivity" />
-        <activity android:name=".DrawTextViewSecondKindActivity" />
-        <activity android:name=".PathUseDetailActivity" />
-        <activity android:name=".PathUseDetailFirstGroupActivity" />
-        <activity android:name=".PathUseDetailAddXxxActivity" />
-        <activity android:name=".PathUseDetailAddPathActivity" />
-        <activity android:name=".PathUseDetailAddArcActivity" />
-        <activity android:name=".PathUseDetailArcToActivity" />
-        <activity android:name=".PathUseDetailOffsetActivity" />
+        <activity android:name=".activity.DrawColorViewActivity" />
+        <activity android:name=".activity.DrawPointViewActivity" />
+        <activity android:name=".activity.DrawLineViewActivity" />
+        <activity android:name=".activity.DrawRectViewActivity" />
+        <activity android:name=".activity.DrawRoundCornerRectViewActivity" />
+        <activity android:name=".activity.DrawOvalViewActivity" />
+        <activity android:name=".activity.DrawCircleViewActivity" />
+        <activity android:name=".activity.DrawArcViewActivity" />
+        <activity android:name=".activity.PaintUseLearnViewActivity" />
+        <activity android:name=".activity.DrawPieViewActivity" />
+        <activity android:name=".activity.CanvasTranslateViewActivity" />
+        <activity android:name=".activity.CanvasScaleViewActivity" />
+        <activity android:name=".activity.CanvasScaleViewOfForCircleActivity" />
+        <activity android:name=".activity.CanvasRotateViewActivity" />
+        <activity android:name=".activity.CanvasRotateViewOfCircleActivity" />
+        <activity android:name=".activity.CanvasSkewViewActivity" />
+        <activity android:name=".activity.DrawPictureViewActivity" />
+        <activity android:name=".activity.DrawBitmapViewActivity" />
+        <activity android:name=".activity.DrawBitmapViewOfCheckViewActivity" />
+        <activity android:name=".activity.DrawTextViewFirstKindActivity" />
+        <activity android:name=".activity.DrawTextViewSecondKindActivity" />
+        <activity android:name=".activity.PathUseDetailActivity" />
+        <activity android:name=".activity.PathUseDetailFirstGroupActivity" />
+        <activity android:name=".activity.PathUseDetailAddXxxActivity" />
+        <activity android:name=".activity.PathUseDetailAddPathActivity" />
+        <activity android:name=".activity.PathUseDetailAddArcActivity" />
+        <activity android:name=".activity.PathUseDetailArcToActivity" />
+        <activity android:name=".activity.PathUseDetailOffsetActivity" />
+        <activity android:name=".activity.PathUseDetailRadarViewActivity"></activity>
     </application>
 
 </manifest>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.liuh.canvaslearn.DrawBitmapViewOfCheckViewActivity">
+    tools:context="com.liuh.canvaslearn.activity.DrawBitmapViewOfCheckViewActivity">
 
     <com.liuh.canvaslearn.widget.CheckView
         android:id="@+id/checkView"

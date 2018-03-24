@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.liuh.canvaslearn.PaintUseLearnViewActivity">
+    tools:context="com.liuh.canvaslearn.activity.PaintUseLearnViewActivity">
 
     <com.liuh.canvaslearn.widget.PaintUseLearnView
         android:layout_width="match_parent"

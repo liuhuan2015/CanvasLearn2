@@ -1,9 +1,10 @@
-package com.liuh.canvaslearn;
+package com.liuh.canvaslearn.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.liuh.canvaslearn.R;
 import com.liuh.canvaslearn.widget.CheckView;
 
 import butterknife.BindView;

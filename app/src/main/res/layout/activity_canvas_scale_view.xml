@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.liuh.canvaslearn.CanvasScaleViewActivity">
+    tools:context="com.liuh.canvaslearn.activity.CanvasScaleViewActivity">
 
     <com.liuh.canvaslearn.widget.ScaleView
         android:layout_width="match_parent"

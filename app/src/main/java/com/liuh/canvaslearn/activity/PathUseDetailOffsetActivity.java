@@ -1,7 +1,9 @@
-package com.liuh.canvaslearn;
+package com.liuh.canvaslearn.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.liuh.canvaslearn.R;
 
 /**
  * public boolean isEmpty ()    判断path中是否包含内容。

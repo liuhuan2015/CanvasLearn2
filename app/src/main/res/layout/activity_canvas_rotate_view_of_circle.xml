@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.liuh.canvaslearn.CanvasRotateViewOfCircleActivity">
+    tools:context="com.liuh.canvaslearn.activity.CanvasRotateViewOfCircleActivity">
 
     <com.liuh.canvaslearn.widget.RotateViewOfCircle
         android:layout_width="match_parent"

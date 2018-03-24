@@ -1,13 +1,15 @@
-package com.liuh.canvaslearn;
+package com.liuh.canvaslearn.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DrawRoundCornerRectViewActivity extends AppCompatActivity {
+import com.liuh.canvaslearn.R;
+
+public class DrawRectViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_draw_round_corner_rect_view);
+        setContentView(R.layout.activity_draw_rect_view);
     }
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.liuh.canvaslearn.DrawArcViewActivity">
+    tools:context="com.liuh.canvaslearn.activity.DrawArcViewActivity">
 
     <com.liuh.canvaslearn.widget.DrawArcView
         android:layout_width="match_parent"
