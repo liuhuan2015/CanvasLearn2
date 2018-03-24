@@ -24,7 +24,7 @@ public class PathUseDetailActivity extends AppCompatActivity {
 
     @OnClick({R.id.btn_pathUseMethodDetailFirstGroup, R.id.btn_pathUseMethodDetailAddXxx,
             R.id.btn_pathUseMethodDetailAddPath, R.id.btn_pathUseMethodDetailAddArc,
-            R.id.btn_pathUseMethodDetailArcTo})
+            R.id.btn_pathUseMethodDetailArcTo, R.id.btn_pathUseMethodDetailOffset})
     void onViewClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -46,6 +46,10 @@ public class PathUseDetailActivity extends AppCompatActivity {
                 break;
             case R.id.btn_pathUseMethodDetailArcTo:
                 intent.setClass(PathUseDetailActivity.this, PathUseDetailArcToActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_pathUseMethodDetailOffset:
+                intent.setClass(PathUseDetailActivity.this, PathUseDetailOffsetActivity.class);
                 startActivity(intent);
                 break;
 

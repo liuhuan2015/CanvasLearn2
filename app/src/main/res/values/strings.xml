@@ -28,6 +28,7 @@
     <string name="pathUseMethodDetailAddPath">Path的使用方法详解addPath</string>
     <string name="pathUseMethodDetailAddArc">Path的使用方法详解addArc</string>
     <string name="pathUseMethodDetailArcTo">Path的使用方法详解arcTo</string>
+    <string name="pathUseMethodDetailOffset">Path的使用方法详解offset</string>
 
 
 </resources>

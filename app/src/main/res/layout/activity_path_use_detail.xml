@@ -52,4 +52,10 @@
         android:layout_height="wrap_content"
         android:text="@string/pathUseMethodDetailArcTo" />
 
+    <Button
+        android:id="@+id/btn_pathUseMethodDetailOffset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pathUseMethodDetailOffset" />
+
 </LinearLayout>

@@ -43,6 +43,7 @@
         <activity android:name=".PathUseDetailAddPathActivity" />
         <activity android:name=".PathUseDetailAddArcActivity" />
         <activity android:name=".PathUseDetailArcToActivity" />
+        <activity android:name=".PathUseDetailOffsetActivity" />
     </application>
 
 </manifest>
