@@ -22,7 +22,8 @@ public class PathUseDetailBazierActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.btn_PathUseDetailBazierSecond, R.id.btn_PathUseDetailBazierThird})
+    @OnClick({R.id.btn_PathUseDetailBazierSecond, R.id.btn_PathUseDetailBazierThird,
+            R.id.btn_PathUseDetailBazierHeart})
     void onViewClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -32,6 +33,10 @@ public class PathUseDetailBazierActivity extends AppCompatActivity {
                 break;
             case R.id.btn_PathUseDetailBazierThird:
                 intent.setClass(this, PathUseDetailBazierThirdActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_PathUseDetailBazierHeart:
+                intent.setClass(this, PathUseDetailBazierHeartViewActivity.class);
                 startActivity(intent);
                 break;
         }
