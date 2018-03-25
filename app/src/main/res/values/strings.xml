@@ -31,4 +31,8 @@
     <string name="pathUseMethodDetailOffset">Path的使用方法详解offset</string>
     <string name="pathUseMethodDetailRadarView">Path的使用方法详解之雷达图</string>
 
+    Path的使用方法详解中贝塞尔曲线
+    <string name="pathUseMethodDetailBazier">Path的使用方法详解之贝塞尔曲线</string>
+    <string name="pathUseMethodDetailBazierSecond">Path的使用方法详解之二阶贝塞尔曲线</string>
+
 </resources>

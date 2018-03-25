@@ -93,7 +93,7 @@ public class PathUseDetailRadarView extends View {
     }
 
     /**
-     * 绘制正多边形
+     * 绘制数量为count的正多边形
      */
     private void drawPolygon(Canvas canvas) {
         Path path = new Path();

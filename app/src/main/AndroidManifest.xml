@@ -44,7 +44,9 @@
         <activity android:name=".activity.PathUseDetailAddArcActivity" />
         <activity android:name=".activity.PathUseDetailArcToActivity" />
         <activity android:name=".activity.PathUseDetailOffsetActivity" />
-        <activity android:name=".activity.PathUseDetailRadarViewActivity"></activity>
+        <activity android:name=".activity.PathUseDetailRadarViewActivity" />
+        <activity android:name=".activity.PathUseDetailBazierActivity" />
+        <activity android:name=".activity.PathUseDetailBazierSecondActivity" />
     </application>
 
 </manifest>
