@@ -8,7 +8,7 @@ import com.liuh.canvaslearn.R;
 import butterknife.ButterKnife;
 
 /**
- * Path中的Bazier曲线
+ * Path中的Bazier曲线（二阶）
  */
 public class PathUseDetailBazierSecondActivity extends AppCompatActivity {
 

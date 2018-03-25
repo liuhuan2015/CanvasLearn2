@@ -11,6 +11,12 @@
         android:id="@+id/btn_PathUseDetailBazierSecond"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pathUseMethodDetailBazierSecond"/>
+        android:text="@string/pathUseMethodDetailBazierSecond" />
+
+    <Button
+        android:id="@+id/btn_PathUseDetailBazierThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pathUseMethodDetailBazierThird" />
 
 </LinearLayout>

@@ -47,6 +47,7 @@
         <activity android:name=".activity.PathUseDetailRadarViewActivity" />
         <activity android:name=".activity.PathUseDetailBazierActivity" />
         <activity android:name=".activity.PathUseDetailBazierSecondActivity" />
+        <activity android:name=".activity.PathUseDetailBazierThirdActivity" />
     </application>
 
 </manifest>
