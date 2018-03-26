@@ -31,10 +31,15 @@
     <string name="pathUseMethodDetailOffset">Path的使用方法详解offset</string>
     <string name="pathUseMethodDetailRadarView">Path的使用方法详解之雷达图</string>
 
+    <string name="pathUseMethodDetailFilltype">Path的使用方法详解之Filltype</string>
+
+    <string name="pathUseMethodDetailFilltype2">Path的使用方法详解之Filltype2</string>
+
     Path的使用方法详解中贝塞尔曲线
     <string name="pathUseMethodDetailBazier">Path的使用方法详解之贝塞尔曲线</string>
     <string name="pathUseMethodDetailBazierSecond">Path的使用方法详解之二阶贝塞尔曲线</string>
     <string name="pathUseMethodDetailBazierThird">Path的使用方法详解之三阶贝塞尔曲线</string>
     <string name="pathUseMethodDetailBazierHeart">Path的使用方法详解之贝塞尔曲线之心形</string>
+
 
 </resources>

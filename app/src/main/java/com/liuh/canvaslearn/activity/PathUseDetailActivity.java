@@ -25,7 +25,8 @@ public class PathUseDetailActivity extends AppCompatActivity {
     @OnClick({R.id.btn_pathUseMethodDetailFirstGroup, R.id.btn_pathUseMethodDetailAddXxx,
             R.id.btn_pathUseMethodDetailAddPath, R.id.btn_pathUseMethodDetailAddArc,
             R.id.btn_pathUseMethodDetailArcTo, R.id.btn_pathUseMethodDetailOffset,
-            R.id.btn_pathUseMethodDetailRadarView})
+            R.id.btn_pathUseMethodDetailRadarView, R.id.btn_pathUseMethodDetailFilltype,
+            R.id.btn_pathUseMethodDetailFilltype2})
     void onViewClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -57,6 +58,15 @@ public class PathUseDetailActivity extends AppCompatActivity {
                 intent.setClass(PathUseDetailActivity.this, PathUseDetailRadarViewActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.btn_pathUseMethodDetailFilltype:
+                intent.setClass(PathUseDetailActivity.this, PathUseDetailFillTypeActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_pathUseMethodDetailFilltype2:
+                intent.setClass(PathUseDetailActivity.this, PathUseDetailFillType2Activity.class);
+                startActivity(intent);
+                break;
+
         }
 
 

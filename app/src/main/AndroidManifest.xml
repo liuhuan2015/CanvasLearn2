@@ -49,6 +49,8 @@
         <activity android:name=".activity.PathUseDetailBazierSecondActivity" />
         <activity android:name=".activity.PathUseDetailBazierThirdActivity" />
         <activity android:name=".activity.PathUseDetailBazierHeartViewActivity" />
+        <activity android:name=".activity.PathUseDetailFillTypeActivity"/>
+        <activity android:name=".activity.PathUseDetailFillType2Activity"/>
     </application>
 
 </manifest>

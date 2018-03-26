@@ -64,4 +64,15 @@
         android:layout_height="wrap_content"
         android:text="@string/pathUseMethodDetailRadarView" />
 
+    <Button
+        android:id="@+id/btn_pathUseMethodDetailFilltype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pathUseMethodDetailFilltype" />
+
+    <Button
+        android:id="@+id/btn_pathUseMethodDetailFilltype2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pathUseMethodDetailFilltype2" />
 </LinearLayout>
