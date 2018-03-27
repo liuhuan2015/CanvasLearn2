@@ -65,8 +65,8 @@ public class PathUseDetailFillType extends View {
 
         Path path = new Path();
 
-//        path.setFillType(Path.FillType.EVEN_ODD);//设置Path填充模式为奇偶规则
-        path.setFillType(Path.FillType.INVERSE_EVEN_ODD);//非奇偶规则
+        path.setFillType(Path.FillType.EVEN_ODD);//设置Path填充模式为奇偶规则
+//        path.setFillType(Path.FillType.INVERSE_EVEN_ODD);//非奇偶规则
         path.addRect(-200, -200, 200, 200, Path.Direction.CCW);
 
         canvas.drawPath(path, mPaint);

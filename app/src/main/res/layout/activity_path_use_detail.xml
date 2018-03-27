@@ -75,4 +75,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/pathUseMethodDetailFilltype2" />
+
+    <Button
+        android:id="@+id/btn_pathUseMethodDetailBooleanOpera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pathUseMethodDetailBooleanOperation" />
+
+    <Button
+        android:id="@+id/btn_pathUseMethodDetailComputeBounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pathUseMethodDetailComputeBounds" />
 </LinearLayout>

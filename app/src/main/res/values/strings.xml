@@ -35,6 +35,9 @@
 
     <string name="pathUseMethodDetailFilltype2">Path的使用方法详解之Filltype2</string>
 
+    <string name="pathUseMethodDetailBooleanOperation">Path的使用方法详解之布尔操作</string>
+    <string name="pathUseMethodDetailComputeBounds">Path的使用方法详解之测量边界</string>
+
     Path的使用方法详解中贝塞尔曲线
     <string name="pathUseMethodDetailBazier">Path的使用方法详解之贝塞尔曲线</string>
     <string name="pathUseMethodDetailBazierSecond">Path的使用方法详解之二阶贝塞尔曲线</string>
