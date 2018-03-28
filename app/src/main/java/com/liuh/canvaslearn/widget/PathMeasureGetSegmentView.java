@@ -2,7 +2,6 @@ package com.liuh.canvaslearn.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PathMeasure;
@@ -28,21 +27,21 @@ import android.view.View;
  * false	              保证存储截取片段的 Path(dst) 的连续性
  */
 
-public class PathUseDetailPathMeasureGetSegment extends View {
+public class PathMeasureGetSegmentView extends View {
 
     private Paint mPaint;
 
     private int mWidth, mHeight;
 
-    public PathUseDetailPathMeasureGetSegment(Context context) {
+    public PathMeasureGetSegmentView(Context context) {
         this(context, null);
     }
 
-    public PathUseDetailPathMeasureGetSegment(Context context, @Nullable AttributeSet attrs) {
+    public PathMeasureGetSegmentView(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public PathUseDetailPathMeasureGetSegment(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public PathMeasureGetSegmentView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         mPaint = new Paint();

@@ -19,7 +19,8 @@ public class PathMeasureUseActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.btn_PathMeasureConstructor, R.id.btn_PathMeasureGetSegment})
+    @OnClick({R.id.btn_PathMeasureConstructor, R.id.btn_PathMeasureGetSegment,
+            R.id.btn_PathMeasureNextContour})
     void onViewClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -31,6 +32,11 @@ public class PathMeasureUseActivity extends AppCompatActivity {
                 intent.setClass(this, PathMeasureGetSegmentActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.btn_PathMeasureNextContour:
+                intent.setClass(this, PathMeasureNextContourActivity.class);
+                startActivity(intent);
+                break;
+
         }
 
     }

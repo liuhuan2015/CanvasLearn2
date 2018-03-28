@@ -23,21 +23,21 @@ import android.view.View;
  * 则不论Path是否闭合测量的都是 Path 的闭合长度。
  */
 
-public class PathUseDetailPathMeasureView extends View {
+public class PathMeasureConstructorView extends View {
 
     private Paint mPaint;
 
     private int mWidth, mHeight;
 
-    public PathUseDetailPathMeasureView(Context context) {
+    public PathMeasureConstructorView(Context context) {
         this(context, null);
     }
 
-    public PathUseDetailPathMeasureView(Context context, @Nullable AttributeSet attrs) {
+    public PathMeasureConstructorView(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public PathUseDetailPathMeasureView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public PathMeasureConstructorView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         mPaint = new Paint();
