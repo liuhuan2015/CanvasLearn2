@@ -52,7 +52,10 @@
         <activity android:name=".activity.PathUseDetailFillTypeActivity" />
         <activity android:name=".activity.PathUseDetailFillType2Activity" />
         <activity android:name=".activity.PathUseDetailBooleanOperationActivity" />
-        <activity android:name=".activity.PathUseDetailComputeBoundsActivity"></activity>
+        <activity android:name=".activity.PathUseDetailComputeBoundsActivity" />
+        <activity android:name=".activity.PathMeasureUseActivity" />
+        <activity android:name=".activity.PathMeasureGetSegmentActivity" />
+        <activity android:name=".activity.PathMeasureConstructorUseActivity" />
     </application>
 
 </manifest>

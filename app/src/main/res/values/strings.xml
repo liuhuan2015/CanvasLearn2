@@ -44,5 +44,8 @@
     <string name="pathUseMethodDetailBazierThird">Path的使用方法详解之三阶贝塞尔曲线</string>
     <string name="pathUseMethodDetailBazierHeart">Path的使用方法详解之贝塞尔曲线之心形</string>
 
+    <string name="PathMeasureUse">PathMeasure类的使用</string>
+    <string name="PathMeasureConstructor">PathMeasure构造方法</string>
+    <string name="PathMeasureGetSegment">PathMeasure的getSegment</string>
 
 </resources>
