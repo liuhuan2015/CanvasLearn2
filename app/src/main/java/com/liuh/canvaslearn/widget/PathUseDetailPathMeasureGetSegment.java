@@ -22,6 +22,10 @@ import android.view.View;
  * <p>
  * 如果 startWithMoveTo 为 true, 则被截取出来到Path片段保持原状，如果 startWithMoveTo 为 false，
  * 则会将截取出来的 Path 片段的起始点移动到 dst 的最后一个点，以保证 dst 的连续性。
+ * <p>
+ * startWithMoveTo取值	  主要功用
+ * true	                  保证截取得到的 Path 片段不会发生形变
+ * false	              保证存储截取片段的 Path(dst) 的连续性
  */
 
 public class PathUseDetailPathMeasureGetSegment extends View {
@@ -61,15 +65,15 @@ public class PathUseDetailPathMeasureGetSegment extends View {
 
         Path path = new Path();
         path.addRect(-200, -200, 200, 200, Path.Direction.CW);//顺时针的矩形
-        mPaint.setColor(Color.BLACK);
-        canvas.drawPath(path, mPaint);
+//        mPaint.setColor(Color.BLACK);
+//        canvas.drawPath(path, mPaint);
 
         Path dst = new Path();
         dst.lineTo(-300, -300);
 
-        PathMeasure pathMeasure = new PathMeasure(path, false);
+        PathMeasure pathMeasure = new PathMeasure(path, false);//将 Path 与 PathMeasure 关联
 
-        pathMeasure.getSegment(200, 600, dst, true);
+        pathMeasure.getSegment(200, 600, dst, false);//<--- 截取一部分 不使用 startMoveTo, 保持 dst 的连续性
 
         canvas.drawPath(dst, mPaint);
     }
