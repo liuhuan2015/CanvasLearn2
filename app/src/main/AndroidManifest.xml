@@ -56,7 +56,8 @@
         <activity android:name=".activity.PathMeasureUseActivity" />
         <activity android:name=".activity.PathMeasureGetSegmentActivity" />
         <activity android:name=".activity.PathMeasureConstructorUseActivity" />
-        <activity android:name=".activity.PathMeasureNextContourActivity"></activity>
+        <activity android:name=".activity.PathMeasureNextContourActivity" />
+        <activity android:name=".activity.PathMeasureGetPosTanActivity" />
     </application>
 
 </manifest>

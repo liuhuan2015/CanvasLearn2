@@ -48,5 +48,6 @@
     <string name="PathMeasureConstructor">PathMeasure构造方法</string>
     <string name="PathMeasureGetSegment">PathMeasure的getSegment</string>
     <string name="PathMeasureNextContour">PathMeasure的nextContour</string>
+    <string name="PathMeasureGetPosTan">PathMeasure的getPosTan</string>
 
 </resources>
