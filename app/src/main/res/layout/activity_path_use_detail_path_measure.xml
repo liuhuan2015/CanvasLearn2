@@ -31,4 +31,10 @@
         android:layout_height="wrap_content"
         android:text="@string/PathMeasureGetPosTan" />
 
+    <Button
+        android:id="@+id/btn_PathMeasureGetMatrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PathMeasureGetMatrix" />
+
 </LinearLayout>

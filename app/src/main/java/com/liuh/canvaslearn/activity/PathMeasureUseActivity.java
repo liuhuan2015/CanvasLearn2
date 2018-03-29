@@ -20,7 +20,8 @@ public class PathMeasureUseActivity extends AppCompatActivity {
     }
 
     @OnClick({R.id.btn_PathMeasureConstructor, R.id.btn_PathMeasureGetSegment,
-            R.id.btn_PathMeasureNextContour, R.id.btn_PathMeasureGetPosTan})
+            R.id.btn_PathMeasureNextContour, R.id.btn_PathMeasureGetPosTan,
+            R.id.btn_PathMeasureGetMatrix})
     void onViewClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -38,6 +39,10 @@ public class PathMeasureUseActivity extends AppCompatActivity {
                 break;
             case R.id.btn_PathMeasureGetPosTan:
                 intent.setClass(this, PathMeasureGetPosTanActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_PathMeasureGetMatrix:
+                intent.setClass(this, PathMeasureGetMatrixActivity.class);
                 startActivity(intent);
                 break;
         }

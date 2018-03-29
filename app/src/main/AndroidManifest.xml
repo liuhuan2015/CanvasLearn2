@@ -58,6 +58,7 @@
         <activity android:name=".activity.PathMeasureConstructorUseActivity" />
         <activity android:name=".activity.PathMeasureNextContourActivity" />
         <activity android:name=".activity.PathMeasureGetPosTanActivity" />
+        <activity android:name=".activity.PathMeasureGetMatrixActivity"></activity>
     </application>
 
 </manifest>
