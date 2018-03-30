@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.liuh.canvaslearn.R;
+import com.liuh.canvaslearn.widget.SearchView;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -21,7 +22,7 @@ public class PathMeasureUseActivity extends AppCompatActivity {
 
     @OnClick({R.id.btn_PathMeasureConstructor, R.id.btn_PathMeasureGetSegment,
             R.id.btn_PathMeasureNextContour, R.id.btn_PathMeasureGetPosTan,
-            R.id.btn_PathMeasureGetMatrix})
+            R.id.btn_PathMeasureGetMatrix, R.id.btn_PathMeasureSearchView})
     void onViewClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -45,6 +46,11 @@ public class PathMeasureUseActivity extends AppCompatActivity {
                 intent.setClass(this, PathMeasureGetMatrixActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.btn_PathMeasureSearchView:
+                intent.setClass(this, PathMeasureSearchViewActivity.class);
+                startActivity(intent);
+                break;
+
         }
 
     }

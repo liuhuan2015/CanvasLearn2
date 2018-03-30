@@ -50,5 +50,7 @@
     <string name="PathMeasureNextContour">PathMeasure的nextContour</string>
     <string name="PathMeasureGetPosTan">PathMeasure的getPosTan</string>
     <string name="PathMeasureGetMatrix">PathMeasure的getMatrix</string>
+    <string name="PathMeasureSearchView">PathMeasure综合之searchView</string>
+
 
 </resources>

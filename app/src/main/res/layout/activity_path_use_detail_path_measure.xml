@@ -37,4 +37,10 @@
         android:layout_height="wrap_content"
         android:text="@string/PathMeasureGetMatrix" />
 
+    <Button
+        android:id="@+id/btn_PathMeasureSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PathMeasureSearchView"/>
+
 </LinearLayout>
