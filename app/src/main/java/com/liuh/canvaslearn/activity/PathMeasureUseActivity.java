@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.liuh.canvaslearn.R;
-import com.liuh.canvaslearn.widget.SearchView;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;

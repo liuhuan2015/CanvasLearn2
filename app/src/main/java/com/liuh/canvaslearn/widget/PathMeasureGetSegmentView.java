@@ -2,6 +2,7 @@ package com.liuh.canvaslearn.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PathMeasure;
@@ -64,16 +65,16 @@ public class PathMeasureGetSegmentView extends View {
 
         Path path = new Path();
         path.addRect(-200, -200, 200, 200, Path.Direction.CW);//顺时针的矩形
-//        mPaint.setColor(Color.BLACK);
-//        canvas.drawPath(path, mPaint);
+        mPaint.setColor(Color.BLACK);
+        canvas.drawPath(path, mPaint);
 
         Path dst = new Path();
         dst.lineTo(-300, -300);
 
         PathMeasure pathMeasure = new PathMeasure(path, false);//将 Path 与 PathMeasure 关联
-
-        pathMeasure.getSegment(200, 600, dst, false);//<--- 截取一部分 不使用 startMoveTo, 保持 dst 的连续性
-
+        //截取一部分 false:不使用 startMoveTo, 保持 dst 的连续性;true:使用 startMoveTo 不保持dst的连续性，即dst不会变形
+        pathMeasure.getSegment(200, 600, dst, true);
+        mPaint.setColor(Color.RED);
         canvas.drawPath(dst, mPaint);
     }
 }
