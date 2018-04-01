@@ -155,6 +155,12 @@
             android:layout_height="wrap_content"
             android:text="@string/PathMeasureUse" />
 
+        <Button
+            android:id="@+id/btn_matrixMethodUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MatrixMethodUse" />
+
     </LinearLayout>
 
 </ScrollView>

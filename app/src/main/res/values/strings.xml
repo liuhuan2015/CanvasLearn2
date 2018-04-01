@@ -52,5 +52,7 @@
     <string name="PathMeasureGetMatrix">PathMeasure的getMatrix</string>
     <string name="PathMeasureSearchView">PathMeasure综合之searchView</string>
 
+    <string name="MatrixMethodUse">Matrix类的方法使用</string>
+    <string name="MatrixMapPointsUse">Matrix类的mapPoints</string>
 
 </resources>

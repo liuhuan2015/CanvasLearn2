@@ -254,6 +254,7 @@ public class PathMeasureSearchView extends View {
                 Path dst2 = new Path();
                 float stop = pathMeasure.getLength() * mAnimatorValue;
                 float start = (float) (stop - ((0.5 - Math.abs(mAnimatorValue - 0.5)) * 200f));
+//                float start = (float) (stop - (Math.abs(mAnimatorValue - 0.5) * 200f));
                 pathMeasure.getSegment(start, stop, dst2, true);
                 canvas.drawPath(dst2, mPaint);
                 break;
