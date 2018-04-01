@@ -61,7 +61,10 @@
         <activity android:name=".activity.PathMeasureGetMatrixActivity" />
         <activity android:name=".activity.PathMeasureSearchViewActivity" />
         <activity android:name=".activity.MatrixMapPointsActivity" />
-        <activity android:name=".activity.MatrixMethodUseActivity"></activity>
+        <activity android:name=".activity.MatrixMethodUseActivity" />
+        <activity android:name=".activity.MatrixMapRadiusActivity" />
+        <activity android:name=".activity.MatrixMapRectActivity" />
+        <activity android:name=".activity.MatrixMapVectorsActivity"></activity>
     </application>
 
 </manifest>

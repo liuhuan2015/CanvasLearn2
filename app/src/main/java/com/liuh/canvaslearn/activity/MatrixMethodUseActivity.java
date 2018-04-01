@@ -19,12 +19,25 @@ public class MatrixMethodUseActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.btn_MatrixMapPointsUse})
+    @OnClick({R.id.btn_MatrixMapPointsUse, R.id.btn_MatrixMapRadiusUse, R.id.btn_MatrixMapRectUse,
+            R.id.btn_MatrixMapVectorsUse})
     void onViewClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
             case R.id.btn_MatrixMapPointsUse:
                 intent.setClass(this, MatrixMapPointsActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_MatrixMapRadiusUse:
+                intent.setClass(this, MatrixMapRadiusActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_MatrixMapRectUse:
+                intent.setClass(this, MatrixMapRectActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_MatrixMapVectorsUse:
+                intent.setClass(this, MatrixMapVectorsActivity.class);
                 startActivity(intent);
                 break;
         }

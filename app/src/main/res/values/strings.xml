@@ -54,5 +54,7 @@
 
     <string name="MatrixMethodUse">Matrix类的方法使用</string>
     <string name="MatrixMapPointsUse">Matrix类的mapPoints</string>
-
+    <string name="MatrixMapRadiusUse">Matrix类的mapRadius</string>
+    <string name="MatrixMapRectUse">Matrix类的mapRect</string>
+    <string name="MatrixMapVectors">Matrix类的mapVectors</string>
 </resources>
