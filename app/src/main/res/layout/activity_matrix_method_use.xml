@@ -49,4 +49,10 @@
         android:layout_height="wrap_content"
         android:text="@string/MatrixSetRectToRectTest" />
 
+    <Button
+        android:id="@+id/btn_MatrixAboutMethodTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MatrixAboutMethodTest" />
+
 </LinearLayout>

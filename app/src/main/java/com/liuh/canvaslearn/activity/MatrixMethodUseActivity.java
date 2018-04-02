@@ -22,7 +22,8 @@ public class MatrixMethodUseActivity extends AppCompatActivity {
 
     @OnClick({R.id.btn_MatrixMapPointsUse, R.id.btn_MatrixMapRadiusUse, R.id.btn_MatrixMapRectUse,
             R.id.btn_MatrixMapVectorsUse, R.id.btn_MatrixSetPolyToPolyUse,
-            R.id.btn_MatrixSetPolyToPolyPointCountTest, R.id.btn_MatrixSetRectToRectTest})
+            R.id.btn_MatrixSetPolyToPolyPointCountTest, R.id.btn_MatrixSetRectToRectTest,
+            R.id.btn_MatrixAboutMethodTest})
     void onViewClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -52,6 +53,10 @@ public class MatrixMethodUseActivity extends AppCompatActivity {
                 break;
             case R.id.btn_MatrixSetRectToRectTest:
                 intent.setClass(this, MatrixSetRectToRectActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_MatrixAboutMethodTest:
+                intent.setClass(this, MatrixAboutMethodActivity.class);
                 startActivity(intent);
                 break;
         }

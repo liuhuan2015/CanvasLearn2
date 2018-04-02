@@ -60,5 +60,6 @@
     <string name="MatrixSetPolyToPoly">Matrix类的setPolyToPoly</string>
     <string name="MatrixSetPolyToPolyPointCountTest">Matrix类的setPolyToPoly的pointCount数值测试</string>
     <string name="MatrixSetRectToRectTest">Matrix类的setRectToRect</string>
+    <string name="MatrixAboutMethodTest">Matrix相关函数</string>
 
 </resources>
