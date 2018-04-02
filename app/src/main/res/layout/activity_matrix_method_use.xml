@@ -31,4 +31,22 @@
         android:layout_height="wrap_content"
         android:text="@string/MatrixMapVectors" />
 
+    <Button
+        android:id="@+id/btn_MatrixSetPolyToPolyUse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MatrixSetPolyToPoly" />
+
+    <Button
+        android:id="@+id/btn_MatrixSetPolyToPolyPointCountTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MatrixSetPolyToPolyPointCountTest" />
+
+    <Button
+        android:id="@+id/btn_MatrixSetRectToRectTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MatrixSetRectToRectTest" />
+
 </LinearLayout>

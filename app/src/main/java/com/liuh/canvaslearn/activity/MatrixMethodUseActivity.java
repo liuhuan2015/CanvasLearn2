@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.liuh.canvaslearn.R;
+import com.liuh.canvaslearn.widget.MatrixSetRectToRectView;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -20,7 +21,8 @@ public class MatrixMethodUseActivity extends AppCompatActivity {
     }
 
     @OnClick({R.id.btn_MatrixMapPointsUse, R.id.btn_MatrixMapRadiusUse, R.id.btn_MatrixMapRectUse,
-            R.id.btn_MatrixMapVectorsUse})
+            R.id.btn_MatrixMapVectorsUse, R.id.btn_MatrixSetPolyToPolyUse,
+            R.id.btn_MatrixSetPolyToPolyPointCountTest, R.id.btn_MatrixSetRectToRectTest})
     void onViewClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -38,6 +40,18 @@ public class MatrixMethodUseActivity extends AppCompatActivity {
                 break;
             case R.id.btn_MatrixMapVectorsUse:
                 intent.setClass(this, MatrixMapVectorsActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_MatrixSetPolyToPolyUse:
+                intent.setClass(this, MatrixSetPolyToPolyActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_MatrixSetPolyToPolyPointCountTest:
+                intent.setClass(this, MatrixSetPolyToPolyPointTestActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_MatrixSetRectToRectTest:
+                intent.setClass(this, MatrixSetRectToRectActivity.class);
                 startActivity(intent);
                 break;
         }

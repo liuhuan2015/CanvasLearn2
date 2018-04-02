@@ -57,4 +57,8 @@
     <string name="MatrixMapRadiusUse">Matrix类的mapRadius</string>
     <string name="MatrixMapRectUse">Matrix类的mapRect</string>
     <string name="MatrixMapVectors">Matrix类的mapVectors</string>
+    <string name="MatrixSetPolyToPoly">Matrix类的setPolyToPoly</string>
+    <string name="MatrixSetPolyToPolyPointCountTest">Matrix类的setPolyToPoly的pointCount数值测试</string>
+    <string name="MatrixSetRectToRectTest">Matrix类的setRectToRect</string>
+
 </resources>

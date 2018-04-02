@@ -64,7 +64,10 @@
         <activity android:name=".activity.MatrixMethodUseActivity" />
         <activity android:name=".activity.MatrixMapRadiusActivity" />
         <activity android:name=".activity.MatrixMapRectActivity" />
-        <activity android:name=".activity.MatrixMapVectorsActivity"></activity>
+        <activity android:name=".activity.MatrixMapVectorsActivity" />
+        <activity android:name=".activity.MatrixSetPolyToPolyActivity" />
+        <activity android:name=".activity.MatrixSetPolyToPolyPointTestActivity" />
+        <activity android:name=".activity.MatrixSetRectToRectActivity"></activity>
     </application>
 
 </manifest>
