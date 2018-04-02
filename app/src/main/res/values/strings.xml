@@ -62,4 +62,6 @@
     <string name="MatrixSetRectToRectTest">Matrix类的setRectToRect</string>
     <string name="MatrixAboutMethodTest">Matrix相关函数</string>
 
+    <string name="getLocationTest">获取View在屏幕上的绝对位置</string>
+
 </resources>
