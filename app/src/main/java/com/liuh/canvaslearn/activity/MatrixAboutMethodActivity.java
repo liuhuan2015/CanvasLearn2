@@ -1,8 +1,6 @@
 package com.liuh.canvaslearn.activity;
 
 import android.graphics.Matrix;
-import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
