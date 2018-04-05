@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.btn_canvasSkewView, R.id.btn_drawPictureView, R.id.btn_drawBitmapView, R.id.btn_drawBitmapViewOfCheckView,
             R.id.btn_drawTextViewFirstKind, R.id.btn_drawTextViewSecondKind, R.id.btn_pathUseMethodDetail,
             R.id.btn_pathUseMethodDetailBazier, R.id.btn_pathUseMethodDetailPathMeasure, R.id.btn_matrixMethodUse,
-            R.id.btn_getLocationTest})
+            R.id.btn_getLocationTest, R.id.btn_rotate3dAnimationTest})
     void onBtnClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -134,6 +134,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_getLocationTest:
                 intent.setClass(this, GetLocationTestActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_rotate3dAnimationTest:
+                intent.setClass(this, Rotate3dAnimationTestActivity.class);
                 startActivity(intent);
                 break;
 

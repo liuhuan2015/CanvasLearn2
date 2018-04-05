@@ -69,7 +69,8 @@
         <activity android:name=".activity.MatrixSetPolyToPolyPointTestActivity" />
         <activity android:name=".activity.MatrixSetRectToRectActivity" />
         <activity android:name=".activity.MatrixAboutMethodActivity" />
-        <activity android:name=".activity.GetLocationTestActivity"></activity>
+        <activity android:name=".activity.GetLocationTestActivity" />
+        <activity android:name=".activity.Rotate3dAnimationTestActivity"></activity>
     </application>
 
 </manifest>

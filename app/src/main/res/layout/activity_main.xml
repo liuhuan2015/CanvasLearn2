@@ -167,6 +167,12 @@
             android:layout_height="wrap_content"
             android:text="@string/getLocationTest" />
 
+        <Button
+            android:id="@+id/btn_rotate3dAnimationTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rotate3dAnimationTest" />
+
     </LinearLayout>
 
 </ScrollView>
