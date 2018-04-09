@@ -173,6 +173,12 @@
             android:layout_height="wrap_content"
             android:text="@string/rotate3dAnimationTest" />
 
+        <Button
+            android:id="@+id/btn_RegionUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RegionUse" />
+
     </LinearLayout>
 
 </ScrollView>

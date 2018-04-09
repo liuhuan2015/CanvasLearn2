@@ -1,8 +1,11 @@
 package com.liuh.canvaslearn.activity;
 
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.Window;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 
@@ -23,6 +26,10 @@ public class Rotate3dAnimationTestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rotate3d_animation_test);
         ButterKnife.bind(this);
+
+//        Window
+
+        ViewPager.DecorView phoneWindow;
     }
 
     @OnClick({R.id.iv_girl})
@@ -37,5 +44,10 @@ public class Rotate3dAnimationTestActivity extends AppCompatActivity {
                 ivGirl.startAnimation(animation);
                 break;
         }
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        return super.onTouchEvent(event);
     }
 }

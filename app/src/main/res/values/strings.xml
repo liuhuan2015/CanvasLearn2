@@ -65,5 +65,6 @@
     <string name="getLocationTest">获取View在屏幕上的绝对位置</string>
 
     <string name="rotate3dAnimationTest">3D旋转动画测试</string>
+    <string name="RegionUse">Region的使用</string>
 
 </resources>
