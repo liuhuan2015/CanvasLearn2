@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
             R.id.btn_canvasSkewView, R.id.btn_drawPictureView, R.id.btn_drawBitmapView, R.id.btn_drawBitmapViewOfCheckView,
             R.id.btn_drawTextViewFirstKind, R.id.btn_drawTextViewSecondKind, R.id.btn_pathUseMethodDetail,
             R.id.btn_pathUseMethodDetailBazier, R.id.btn_pathUseMethodDetailPathMeasure, R.id.btn_matrixMethodUse,
-            R.id.btn_getLocationTest, R.id.btn_rotate3dAnimationTest, R.id.btn_RegionUse})
+            R.id.btn_getLocationTest, R.id.btn_rotate3dAnimationTest, R.id.btn_RegionUse,
+            R.id.btn_RegionUse_TouchLocTest})
     void onBtnClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -142,6 +143,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_RegionUse:
                 intent.setClass(this, RegionUseActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_RegionUse_TouchLocTest:
+                intent.setClass(this, RegionUseTouchLocTestActivity.class);
                 startActivity(intent);
                 break;
         }

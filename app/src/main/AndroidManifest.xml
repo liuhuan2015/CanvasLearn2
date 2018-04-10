@@ -71,7 +71,8 @@
         <activity android:name=".activity.MatrixAboutMethodActivity" />
         <activity android:name=".activity.GetLocationTestActivity" />
         <activity android:name=".activity.Rotate3dAnimationTestActivity" />
-        <activity android:name=".activity.RegionUseActivity"></activity>
+        <activity android:name=".activity.RegionUseActivity" />
+        <activity android:name=".activity.RegionUseTouchLocTestActivity"></activity>
     </application>
 
 </manifest>
