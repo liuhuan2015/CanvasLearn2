@@ -38,7 +38,6 @@
     <string name="pathUseMethodDetailBooleanOperation">Path的使用方法详解之布尔操作</string>
     <string name="pathUseMethodDetailComputeBounds">Path的使用方法详解之测量边界</string>
 
-    Path的使用方法详解中贝塞尔曲线
     <string name="pathUseMethodDetailBazier">Path的使用方法详解之贝塞尔曲线</string>
     <string name="pathUseMethodDetailBazierSecond">Path的使用方法详解之二阶贝塞尔曲线</string>
     <string name="pathUseMethodDetailBazierThird">Path的使用方法详解之三阶贝塞尔曲线</string>
@@ -68,5 +67,6 @@
 
     <string name="RegionUse">Region的使用</string>
     <string name="RegionUse_TouchLocTest">Region的使用--Touch位置测试</string>
+    <string name="RegionUse_RemoteControlMenu">Region的使用--遥控器界面</string>
 
 </resources>

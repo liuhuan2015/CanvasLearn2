@@ -185,6 +185,12 @@
             android:layout_height="wrap_content"
             android:text="@string/RegionUse_TouchLocTest" />
 
+        <Button
+            android:id="@+id/btn_RegionUse_RemoteControlMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RegionUse_RemoteControlMenu" />
+
     </LinearLayout>
 
 </ScrollView>
