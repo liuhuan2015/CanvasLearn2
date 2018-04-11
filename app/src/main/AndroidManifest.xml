@@ -69,11 +69,13 @@
         <activity android:name=".activity.MatrixSetPolyToPolyPointTestActivity" />
         <activity android:name=".activity.MatrixSetRectToRectActivity" />
         <activity android:name=".activity.MatrixAboutMethodActivity" />
-        <activity android:name=".activity.GetLocationTestActivity" />
+        <activity
+            android:name=".activity.GetLocationTestActivity"
+            android:hardwareAccelerated="false" />
         <activity android:name=".activity.Rotate3dAnimationTestActivity" />
         <activity android:name=".activity.RegionUseActivity" />
         <activity android:name=".activity.RegionUseTouchLocTestActivity" />
-        <activity android:name=".activity.RegionUseRemoteControlMenuActivity"></activity>
+        <activity android:name=".activity.RegionUseRemoteControlMenuActivity" />
     </application>
 
 </manifest>

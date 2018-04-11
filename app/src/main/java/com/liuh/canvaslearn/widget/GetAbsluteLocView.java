@@ -18,6 +18,7 @@ import java.util.Arrays;
  * 使用getLocationOnScreen同样可以获取View在屏幕的位置
  * <p>
  * 代码测试：使用第一种得到的是[0，0]，第二种得到的是[0, 117]
+ * 关闭硬件加速后,两种方法得到的都是[0, 117]
  */
 
 public class GetAbsluteLocView extends View {
