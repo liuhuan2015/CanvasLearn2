@@ -3,7 +3,7 @@
 >用了跨度为2.5个月的业余时间（中间有一个春节，都用来玩了（捂脸））看完了GcsSloop的[安卓自定义View教程目录](http://www.gcssloop.com/customview/CustomViewIndex/)，在做笔记的同时，对教程中一些demo做了代码的编写。这里做一个大概的声明。下面是我做的一个简要readme文档。
 #### 一，先放一张Canvas的常用操作索引表截图（请原谅我为了偷懒放了一张截图...）
 ![Canvas常用操作索引表截图](https://github.com/liuhuan2015/CanvasLearn2/blob/master/app/images/canvas%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E6%88%AA%E5%9B%BE.png)<br>
-从截图中我们可以看到，Canvas的Api还是比较多的，从基础的绘制点、直线、矩形、圆等基本图形，到后面的配合上Path进行更复杂的操作，再到后面使用Matrix，可以说功能是非常的强大了。
+从截图中我们可以看到，Canvas的Api还是比较多的，从基础的绘制点、直线、矩形、圆等基本图形，到后面的配合上Path，PathMeasure进行更复杂的操作，再到后面使用Matrix，Region，可以说功能是非常的强大了。
 #### 二，我的这个项目中做了一些api的联系，具体实现的效果有
 ##### (一)饼状图
 ![饼状图](https://github.com/liuhuan2015/CanvasLearn2/blob/master/app/images/%E9%A5%BC%E7%8A%B6%E5%9B%BE.png)<br>
