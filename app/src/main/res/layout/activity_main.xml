@@ -12,52 +12,10 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btn_drawColorView"
+            android:id="@+id/btn_canvasdraw_BasicUse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/drawColorView" />
-
-        <Button
-            android:id="@+id/btn_drawPointView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/drawPointView" />
-
-        <Button
-            android:id="@+id/btn_drawLineView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/drawLineView" />
-
-        <Button
-            android:id="@+id/btn_drawRectView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/drawRectView" />
-
-        <Button
-            android:id="@+id/btn_drawRoundCorneRectView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/drawRoundCorneRectView" />
-
-        <Button
-            android:id="@+id/btn_drawOvalView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/drawOvalView" />
-
-        <Button
-            android:id="@+id/btn_drawCircleView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/drawCircleView" />
-
-        <Button
-            android:id="@+id/btn_drawArcView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/drawArcView" />
+            android:text="@string/canvasdraw_BasicUse" />
 
         <Button
             android:id="@+id/btn_paintUseLearnView"

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">CanvasLearn</string>
+
+    <string name="canvasdraw_BasicUse">Canvas绘制的基础使用</string>
     <string name="drawColorView">绘制颜色</string>
     <string name="drawPointView">绘制点</string>
     <string name="drawLineView">绘制直线</string>

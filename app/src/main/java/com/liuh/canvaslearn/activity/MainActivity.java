@@ -21,9 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.btn_drawColorView, R.id.btn_drawPointView, R.id.btn_drawLineView, R.id.btn_drawRectView,
-            R.id.btn_drawRoundCorneRectView, R.id.btn_drawOvalView, R.id.btn_drawCircleView, R.id.btn_drawArcView,
-            R.id.btn_paintUseLearnView, R.id.btn_drawPieView, R.id.btn_canvasTranslateView, R.id.btn_canvasScaleView,
+    @OnClick({R.id.btn_canvasdraw_BasicUse, R.id.btn_paintUseLearnView, R.id.btn_drawPieView, R.id.btn_canvasTranslateView, R.id.btn_canvasScaleView,
             R.id.btn_canvasScaleViewOfForCircle, R.id.btn_canvasRotateView, R.id.btn_canvasRotateViewOfCircle,
             R.id.btn_canvasSkewView, R.id.btn_drawPictureView, R.id.btn_drawBitmapView, R.id.btn_drawBitmapViewOfCheckView,
             R.id.btn_drawTextViewFirstKind, R.id.btn_drawTextViewSecondKind, R.id.btn_pathUseMethodDetail,
@@ -33,36 +31,8 @@ public class MainActivity extends AppCompatActivity {
     void onBtnClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
-            case R.id.btn_drawColorView:
-                intent.setClass(MainActivity.this, DrawColorViewActivity.class);
-                MainActivity.this.startActivity(intent);
-                break;
-            case R.id.btn_drawPointView:
-                intent.setClass(MainActivity.this, DrawPointViewActivity.class);
-                MainActivity.this.startActivity(intent);
-                break;
-            case R.id.btn_drawLineView:
-                intent.setClass(MainActivity.this, DrawLineViewActivity.class);
-                MainActivity.this.startActivity(intent);
-                break;
-            case R.id.btn_drawRectView:
-                intent.setClass(MainActivity.this, DrawRectViewActivity.class);
-                MainActivity.this.startActivity(intent);
-                break;
-            case R.id.btn_drawRoundCorneRectView:
-                intent.setClass(MainActivity.this, DrawRoundCornerRectViewActivity.class);
-                MainActivity.this.startActivity(intent);
-                break;
-            case R.id.btn_drawOvalView:
-                intent.setClass(MainActivity.this, DrawOvalViewActivity.class);
-                MainActivity.this.startActivity(intent);
-                break;
-            case R.id.btn_drawCircleView:
-                intent.setClass(MainActivity.this, DrawCircleViewActivity.class);
-                MainActivity.this.startActivity(intent);
-                break;
-            case R.id.btn_drawArcView:
-                intent.setClass(MainActivity.this, DrawArcViewActivity.class);
+            case R.id.btn_canvasdraw_BasicUse:
+                intent.setClass(MainActivity.this, CanvasBasicDrawActivity.class);
                 MainActivity.this.startActivity(intent);
                 break;
             case R.id.btn_paintUseLearnView:

@@ -76,6 +76,7 @@
         <activity android:name=".activity.RegionUseActivity" />
         <activity android:name=".activity.RegionUseTouchLocTestActivity" />
         <activity android:name=".activity.RegionUseRemoteControlMenuActivity" />
+        <activity android:name=".activity.CanvasBasicDrawActivity"/>
     </application>
 
 </manifest>
