@@ -86,10 +86,10 @@ public class PathUseDetailRadarView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        drawPolygon(canvas);
-        drawLines(canvas);
-        drawText(canvas);
-        drawRegion(canvas);
+        drawPolygon(canvas);//绘制正多边形
+        drawLines(canvas);//绘制直线
+        drawText(canvas);//绘制文字
+        drawRegion(canvas);//绘制区域
     }
 
     /**
