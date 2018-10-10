@@ -149,6 +149,18 @@
             android:layout_height="wrap_content"
             android:text="@string/RegionUse_RemoteControlMenu" />
 
+        <Button
+            android:id="@+id/btn_test_str"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/test_str" />
+
+        <Button
+            android:id="@+id/btn_face_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="人脸识别框" />
+
     </LinearLayout>
 
 </ScrollView>

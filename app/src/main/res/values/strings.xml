@@ -70,5 +70,7 @@
     <string name="RegionUse">Region的使用</string>
     <string name="RegionUse_TouchLocTest">Region的使用--Touch位置测试</string>
     <string name="RegionUse_RemoteControlMenu">Region的使用--遥控器界面</string>
+    <string name="test_str">测试</string>
+
 
 </resources>

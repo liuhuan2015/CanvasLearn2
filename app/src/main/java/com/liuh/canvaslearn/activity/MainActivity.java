@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
             R.id.btn_drawTextViewFirstKind, R.id.btn_drawTextViewSecondKind, R.id.btn_pathUseMethodDetail,
             R.id.btn_pathUseMethodDetailBazier, R.id.btn_pathUseMethodDetailPathMeasure, R.id.btn_matrixMethodUse,
             R.id.btn_getLocationTest, R.id.btn_rotate3dAnimationTest, R.id.btn_RegionUse,
-            R.id.btn_RegionUse_TouchLocTest, R.id.btn_RegionUse_RemoteControlMenu})
+            R.id.btn_RegionUse_TouchLocTest, R.id.btn_RegionUse_RemoteControlMenu, R.id.btn_test_str,
+            R.id.btn_face_frame})
     void onBtnClicked(View view) {
         Intent intent = new Intent();
         switch (view.getId()) {
@@ -121,6 +122,14 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_RegionUse_RemoteControlMenu:
                 intent.setClass(this, RegionUseRemoteControlMenuActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_test_str:
+                intent.setClass(this, RegionUseRemoteControlMenuActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_face_frame:
+                intent.setClass(this, FaceRecognizeFrameActivity.class);
                 startActivity(intent);
                 break;
         }
